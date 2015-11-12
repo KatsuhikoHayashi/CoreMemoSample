@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  CoreMemoSample
 //
-//  Created by 林克彦 on 2015/11/09.
+//  Created by Hayashidesu. on 2015/11/09.
 //  Copyright © 2015年 Hayashidesu. All rights reserved.
 //
 

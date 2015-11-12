@@ -13,6 +13,8 @@
 		A8418CF61BF02A2600047512 /* CoreMemoSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8418CF41BF02A2600047512 /* CoreMemoSample.xcdatamodeld */; };
 		A8418CF81BF02A2600047512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8418CF71BF02A2600047512 /* Assets.xcassets */; };
 		A8418CFB1BF02A2600047512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8418CF91BF02A2600047512 /* LaunchScreen.storyboard */; };
+		A8418D041BF0414E00047512 /* Memo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8418D021BF0414E00047512 /* Memo+CoreDataProperties.swift */; };
+		A8418D051BF0414E00047512 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8418D031BF0414E00047512 /* Memo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A8418CF71BF02A2600047512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8418CFA1BF02A2600047512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8418CFC1BF02A2600047512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8418D021BF0414E00047512 /* Memo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Memo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A8418D031BF0414E00047512 /* Memo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		A8418CE11BF02A2600047512 = {
 			isa = PBXGroup;
 			children = (
+				A8418D021BF0414E00047512 /* Memo+CoreDataProperties.swift */,
+				A8418D031BF0414E00047512 /* Memo.swift */,
 				A8418CEC1BF02A2600047512 /* CoreMemoSample */,
 				A8418CEB1BF02A2600047512 /* Products */,
 			);
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8418CF61BF02A2600047512 /* CoreMemoSample.xcdatamodeld in Sources */,
+				A8418D041BF0414E00047512 /* Memo+CoreDataProperties.swift in Sources */,
 				A8418CF01BF02A2600047512 /* ViewController.swift in Sources */,
 				A8418CEE1BF02A2600047512 /* AppDelegate.swift in Sources */,
+				A8418D051BF0414E00047512 /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
